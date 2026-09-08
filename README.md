@@ -155,7 +155,7 @@ plain word.
 
 The available tools are `start_protocol`, `read_current`, `next_step`,
 `previous_step`, `go_to_step`, `look_up`, `start_timer`, `cancel_timer`,
-`list_timers`, and `where_are_we`.
+`list_timers`, `finish_protocol`, and `where_are_we`.
 
 Tools change state and return the text to speak. The model produces the one
 utterance sent to Rime. Earlier versions let tools speak directly and then also
