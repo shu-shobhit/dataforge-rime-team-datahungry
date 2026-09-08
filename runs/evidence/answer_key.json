@@ -1,0 +1,1604 @@
+[
+  {
+    "clip": "001.wav",
+    "protocol": "neb_q5_m0492",
+    "step": "s10",
+    "mode": "plain",
+    "snr_db": null,
+    "hazard_spans": [
+      {
+        "id": "s10.n1",
+        "text": "30",
+        "hazard": "H2"
+      },
+      {
+        "id": "s10.k1",
+        "text": "98 °C",
+        "hazard": "H7"
+      },
+      {
+        "id": "s10.d1",
+        "text": "10 seconds",
+        "hazard": "H7"
+      }
+    ]
+  },
+  {
+    "clip": "002.wav",
+    "protocol": "neb_q5_m0492",
+    "step": "s5",
+    "mode": "hazard",
+    "snr_db": 10,
+    "hazard_spans": [
+      {
+        "id": "s5.r1",
+        "text": "DNA",
+        "hazard": "H3"
+      },
+      {
+        "id": "s5.a1",
+        "text": "1000 ng",
+        "hazard": "H1"
+      }
+    ]
+  },
+  {
+    "clip": "003.wav",
+    "protocol": "neb_q5_m0492",
+    "step": "s13",
+    "mode": "plain",
+    "snr_db": null,
+    "hazard_spans": [
+      {
+        "id": "s13.k1",
+        "text": "72 °C",
+        "hazard": "H7"
+      },
+      {
+        "id": "s13.d1",
+        "text": "2 minutes",
+        "hazard": "H7"
+      }
+    ]
+  },
+  {
+    "clip": "004.wav",
+    "protocol": "neb_q5_m0492",
+    "step": "s5",
+    "mode": "hazard",
+    "snr_db": null,
+    "hazard_spans": [
+      {
+        "id": "s5.r1",
+        "text": "DNA",
+        "hazard": "H3"
+      },
+      {
+        "id": "s5.a1",
+        "text": "1000 ng",
+        "hazard": "H1"
+      }
+    ]
+  },
+  {
+    "clip": "005.wav",
+    "protocol": "neb_q5_m0492",
+    "step": "s9",
+    "mode": "hazard",
+    "snr_db": 0,
+    "hazard_spans": [
+      {
+        "id": "s9.k1",
+        "text": "98 °C",
+        "hazard": "H7"
+      },
+      {
+        "id": "s9.d1",
+        "text": "30 seconds",
+        "hazard": "H7"
+      }
+    ]
+  },
+  {
+    "clip": "006.wav",
+    "protocol": "neb_q5_m0492",
+    "step": "s12",
+    "mode": "hazard",
+    "snr_db": null,
+    "hazard_spans": [
+      {
+        "id": "s12.k1",
+        "text": "72 °C",
+        "hazard": "H7"
+      },
+      {
+        "id": "s12.d1",
+        "text": "30 seconds",
+        "hazard": "H7"
+      }
+    ]
+  },
+  {
+    "clip": "007.wav",
+    "protocol": "neb_q5_m0492",
+    "step": "s5",
+    "mode": "hazard",
+    "snr_db": 0,
+    "hazard_spans": [
+      {
+        "id": "s5.r1",
+        "text": "DNA",
+        "hazard": "H3"
+      },
+      {
+        "id": "s5.a1",
+        "text": "1000 ng",
+        "hazard": "H1"
+      }
+    ]
+  },
+  {
+    "clip": "008.wav",
+    "protocol": "neb_q5_m0492",
+    "step": "s6",
+    "mode": "hazard",
+    "snr_db": 0,
+    "hazard_spans": [
+      {
+        "id": "s6.v1",
+        "text": "50 µl",
+        "hazard": "H1"
+      }
+    ]
+  },
+  {
+    "clip": "009.wav",
+    "protocol": "neb_q5_m0492",
+    "step": "s5",
+    "mode": "plain",
+    "snr_db": 0,
+    "hazard_spans": [
+      {
+        "id": "s5.r1",
+        "text": "DNA",
+        "hazard": "H3"
+      },
+      {
+        "id": "s5.a1",
+        "text": "1000 ng",
+        "hazard": "H1"
+      }
+    ]
+  },
+  {
+    "clip": "010.wav",
+    "protocol": "neb_q5_m0492",
+    "step": "s11",
+    "mode": "plain",
+    "snr_db": 0,
+    "hazard_spans": [
+      {
+        "id": "s11.k1",
+        "text": "65 °C",
+        "hazard": "H7"
+      },
+      {
+        "id": "s11.d1",
+        "text": "30 seconds",
+        "hazard": "H7"
+      }
+    ]
+  },
+  {
+    "clip": "011.wav",
+    "protocol": "neb_q5_m0492",
+    "step": "s2",
+    "mode": "hazard",
+    "snr_db": 0,
+    "hazard_spans": [
+      {
+        "id": "s2.v1",
+        "text": "25 µl",
+        "hazard": "H1"
+      },
+      {
+        "id": "s2.r1",
+        "text": "Q5 High-Fidelity 2X Master Mix",
+        "hazard": "H4"
+      }
+    ]
+  },
+  {
+    "clip": "012.wav",
+    "protocol": "neb_q5_m0492",
+    "step": "s12",
+    "mode": "plain",
+    "snr_db": null,
+    "hazard_spans": [
+      {
+        "id": "s12.k1",
+        "text": "72 °C",
+        "hazard": "H7"
+      },
+      {
+        "id": "s12.d1",
+        "text": "30 seconds",
+        "hazard": "H7"
+      }
+    ]
+  },
+  {
+    "clip": "013.wav",
+    "protocol": "neb_q5_m0492",
+    "step": "s6",
+    "mode": "plain",
+    "snr_db": 10,
+    "hazard_spans": [
+      {
+        "id": "s6.v1",
+        "text": "50 µl",
+        "hazard": "H1"
+      }
+    ]
+  },
+  {
+    "clip": "014.wav",
+    "protocol": "neb_q5_m0492",
+    "step": "s11",
+    "mode": "hazard",
+    "snr_db": null,
+    "hazard_spans": [
+      {
+        "id": "s11.k1",
+        "text": "65 °C",
+        "hazard": "H7"
+      },
+      {
+        "id": "s11.d1",
+        "text": "30 seconds",
+        "hazard": "H7"
+      }
+    ]
+  },
+  {
+    "clip": "015.wav",
+    "protocol": "neb_q5_m0492",
+    "step": "s13",
+    "mode": "plain",
+    "snr_db": 0,
+    "hazard_spans": [
+      {
+        "id": "s13.k1",
+        "text": "72 °C",
+        "hazard": "H7"
+      },
+      {
+        "id": "s13.d1",
+        "text": "2 minutes",
+        "hazard": "H7"
+      }
+    ]
+  },
+  {
+    "clip": "016.wav",
+    "protocol": "neb_q5_m0492",
+    "step": "s3",
+    "mode": "hazard",
+    "snr_db": null,
+    "hazard_spans": [
+      {
+        "id": "s3.v1",
+        "text": "2.5 µl",
+        "hazard": "H1"
+      },
+      {
+        "id": "s3.c1",
+        "text": "10 µM",
+        "hazard": "H7"
+      },
+      {
+        "id": "s3.c2",
+        "text": "0.5 µM",
+        "hazard": "H6"
+      }
+    ]
+  },
+  {
+    "clip": "017.wav",
+    "protocol": "neb_q5_m0492",
+    "step": "s9",
+    "mode": "plain",
+    "snr_db": 0,
+    "hazard_spans": [
+      {
+        "id": "s9.k1",
+        "text": "98 °C",
+        "hazard": "H7"
+      },
+      {
+        "id": "s9.d1",
+        "text": "30 seconds",
+        "hazard": "H7"
+      }
+    ]
+  },
+  {
+    "clip": "018.wav",
+    "protocol": "neb_q5_m0492",
+    "step": "s10",
+    "mode": "hazard",
+    "snr_db": 10,
+    "hazard_spans": [
+      {
+        "id": "s10.n1",
+        "text": "30",
+        "hazard": "H2"
+      },
+      {
+        "id": "s10.k1",
+        "text": "98 °C",
+        "hazard": "H7"
+      },
+      {
+        "id": "s10.d1",
+        "text": "10 seconds",
+        "hazard": "H7"
+      }
+    ]
+  },
+  {
+    "clip": "019.wav",
+    "protocol": "neb_q5_m0492",
+    "step": "s2",
+    "mode": "plain",
+    "snr_db": 10,
+    "hazard_spans": [
+      {
+        "id": "s2.v1",
+        "text": "25 µl",
+        "hazard": "H1"
+      },
+      {
+        "id": "s2.r1",
+        "text": "Q5 High-Fidelity 2X Master Mix",
+        "hazard": "H4"
+      }
+    ]
+  },
+  {
+    "clip": "020.wav",
+    "protocol": "neb_q5_m0492",
+    "step": "s12",
+    "mode": "plain",
+    "snr_db": 0,
+    "hazard_spans": [
+      {
+        "id": "s12.k1",
+        "text": "72 °C",
+        "hazard": "H7"
+      },
+      {
+        "id": "s12.d1",
+        "text": "30 seconds",
+        "hazard": "H7"
+      }
+    ]
+  },
+  {
+    "clip": "021.wav",
+    "protocol": "neb_q5_m0492",
+    "step": "s14",
+    "mode": "hazard",
+    "snr_db": 0,
+    "hazard_spans": [
+      {
+        "id": "s14.k1",
+        "text": "4 °C",
+        "hazard": "H7"
+      }
+    ]
+  },
+  {
+    "clip": "022.wav",
+    "protocol": "neb_q5_m0492",
+    "step": "s14",
+    "mode": "hazard",
+    "snr_db": 10,
+    "hazard_spans": [
+      {
+        "id": "s14.k1",
+        "text": "4 °C",
+        "hazard": "H7"
+      }
+    ]
+  },
+  {
+    "clip": "023.wav",
+    "protocol": "neb_q5_m0492",
+    "step": "s10",
+    "mode": "hazard",
+    "snr_db": 0,
+    "hazard_spans": [
+      {
+        "id": "s10.n1",
+        "text": "30",
+        "hazard": "H2"
+      },
+      {
+        "id": "s10.k1",
+        "text": "98 °C",
+        "hazard": "H7"
+      },
+      {
+        "id": "s10.d1",
+        "text": "10 seconds",
+        "hazard": "H7"
+      }
+    ]
+  },
+  {
+    "clip": "024.wav",
+    "protocol": "neb_q5_m0492",
+    "step": "s13",
+    "mode": "plain",
+    "snr_db": 10,
+    "hazard_spans": [
+      {
+        "id": "s13.k1",
+        "text": "72 °C",
+        "hazard": "H7"
+      },
+      {
+        "id": "s13.d1",
+        "text": "2 minutes",
+        "hazard": "H7"
+      }
+    ]
+  },
+  {
+    "clip": "025.wav",
+    "protocol": "neb_q5_m0492",
+    "step": "s5",
+    "mode": "plain",
+    "snr_db": null,
+    "hazard_spans": [
+      {
+        "id": "s5.r1",
+        "text": "DNA",
+        "hazard": "H3"
+      },
+      {
+        "id": "s5.a1",
+        "text": "1000 ng",
+        "hazard": "H1"
+      }
+    ]
+  },
+  {
+    "clip": "026.wav",
+    "protocol": "neb_q5_m0492",
+    "step": "s6",
+    "mode": "hazard",
+    "snr_db": 10,
+    "hazard_spans": [
+      {
+        "id": "s6.v1",
+        "text": "50 µl",
+        "hazard": "H1"
+      }
+    ]
+  },
+  {
+    "clip": "027.wav",
+    "protocol": "neb_q5_m0492",
+    "step": "s3",
+    "mode": "hazard",
+    "snr_db": 10,
+    "hazard_spans": [
+      {
+        "id": "s3.v1",
+        "text": "2.5 µl",
+        "hazard": "H1"
+      },
+      {
+        "id": "s3.c1",
+        "text": "10 µM",
+        "hazard": "H7"
+      },
+      {
+        "id": "s3.c2",
+        "text": "0.5 µM",
+        "hazard": "H6"
+      }
+    ]
+  },
+  {
+    "clip": "028.wav",
+    "protocol": "neb_q5_m0492",
+    "step": "s10",
+    "mode": "plain",
+    "snr_db": 0,
+    "hazard_spans": [
+      {
+        "id": "s10.n1",
+        "text": "30",
+        "hazard": "H2"
+      },
+      {
+        "id": "s10.k1",
+        "text": "98 °C",
+        "hazard": "H7"
+      },
+      {
+        "id": "s10.d1",
+        "text": "10 seconds",
+        "hazard": "H7"
+      }
+    ]
+  },
+  {
+    "clip": "029.wav",
+    "protocol": "neb_q5_m0492",
+    "step": "s9",
+    "mode": "plain",
+    "snr_db": 10,
+    "hazard_spans": [
+      {
+        "id": "s9.k1",
+        "text": "98 °C",
+        "hazard": "H7"
+      },
+      {
+        "id": "s9.d1",
+        "text": "30 seconds",
+        "hazard": "H7"
+      }
+    ]
+  },
+  {
+    "clip": "030.wav",
+    "protocol": "neb_q5_m0492",
+    "step": "s14",
+    "mode": "plain",
+    "snr_db": 0,
+    "hazard_spans": [
+      {
+        "id": "s14.k1",
+        "text": "4 °C",
+        "hazard": "H7"
+      }
+    ]
+  },
+  {
+    "clip": "031.wav",
+    "protocol": "neb_q5_m0492",
+    "step": "s8",
+    "mode": "plain",
+    "snr_db": 0,
+    "hazard_spans": [
+      {
+        "id": "s8.k1",
+        "text": "98 °C",
+        "hazard": "H7"
+      }
+    ]
+  },
+  {
+    "clip": "032.wav",
+    "protocol": "neb_q5_m0492",
+    "step": "s2",
+    "mode": "plain",
+    "snr_db": 0,
+    "hazard_spans": [
+      {
+        "id": "s2.v1",
+        "text": "25 µl",
+        "hazard": "H1"
+      },
+      {
+        "id": "s2.r1",
+        "text": "Q5 High-Fidelity 2X Master Mix",
+        "hazard": "H4"
+      }
+    ]
+  },
+  {
+    "clip": "033.wav",
+    "protocol": "handwritten",
+    "step": "s1",
+    "mode": "hazard",
+    "snr_db": null,
+    "hazard_spans": [
+      {
+        "id": "s1.v1",
+        "text": "0.5 µL",
+        "hazard": "H1"
+      },
+      {
+        "id": "s1.c1",
+        "text": "10 mM",
+        "hazard": "H7"
+      },
+      {
+        "id": "s1.r1",
+        "text": "dNTP",
+        "hazard": "H3"
+      },
+      {
+        "id": "s1.t1",
+        "text": "tube 3",
+        "hazard": "H5"
+      },
+      {
+        "id": "s1.k1",
+        "text": "98 °C",
+        "hazard": "H7"
+      },
+      {
+        "id": "s1.d1",
+        "text": "30 seconds",
+        "hazard": "H7"
+      }
+    ]
+  },
+  {
+    "clip": "034.wav",
+    "protocol": "neb_q5_m0492",
+    "step": "s2",
+    "mode": "hazard",
+    "snr_db": null,
+    "hazard_spans": [
+      {
+        "id": "s2.v1",
+        "text": "25 µl",
+        "hazard": "H1"
+      },
+      {
+        "id": "s2.r1",
+        "text": "Q5 High-Fidelity 2X Master Mix",
+        "hazard": "H4"
+      }
+    ]
+  },
+  {
+    "clip": "035.wav",
+    "protocol": "neb_q5_m0492",
+    "step": "s11",
+    "mode": "hazard",
+    "snr_db": 10,
+    "hazard_spans": [
+      {
+        "id": "s11.k1",
+        "text": "65 °C",
+        "hazard": "H7"
+      },
+      {
+        "id": "s11.d1",
+        "text": "30 seconds",
+        "hazard": "H7"
+      }
+    ]
+  },
+  {
+    "clip": "036.wav",
+    "protocol": "neb_q5_m0492",
+    "step": "s8",
+    "mode": "plain",
+    "snr_db": null,
+    "hazard_spans": [
+      {
+        "id": "s8.k1",
+        "text": "98 °C",
+        "hazard": "H7"
+      }
+    ]
+  },
+  {
+    "clip": "037.wav",
+    "protocol": "neb_q5_m0492",
+    "step": "s5",
+    "mode": "plain",
+    "snr_db": 10,
+    "hazard_spans": [
+      {
+        "id": "s5.r1",
+        "text": "DNA",
+        "hazard": "H3"
+      },
+      {
+        "id": "s5.a1",
+        "text": "1000 ng",
+        "hazard": "H1"
+      }
+    ]
+  },
+  {
+    "clip": "038.wav",
+    "protocol": "neb_q5_m0492",
+    "step": "s14",
+    "mode": "plain",
+    "snr_db": 10,
+    "hazard_spans": [
+      {
+        "id": "s14.k1",
+        "text": "4 °C",
+        "hazard": "H7"
+      }
+    ]
+  },
+  {
+    "clip": "039.wav",
+    "protocol": "neb_q5_m0492",
+    "step": "s3",
+    "mode": "plain",
+    "snr_db": 0,
+    "hazard_spans": [
+      {
+        "id": "s3.v1",
+        "text": "2.5 µl",
+        "hazard": "H1"
+      },
+      {
+        "id": "s3.c1",
+        "text": "10 µM",
+        "hazard": "H7"
+      },
+      {
+        "id": "s3.c2",
+        "text": "0.5 µM",
+        "hazard": "H6"
+      }
+    ]
+  },
+  {
+    "clip": "040.wav",
+    "protocol": "handwritten",
+    "step": "s1",
+    "mode": "hazard",
+    "snr_db": 0,
+    "hazard_spans": [
+      {
+        "id": "s1.v1",
+        "text": "0.5 µL",
+        "hazard": "H1"
+      },
+      {
+        "id": "s1.c1",
+        "text": "10 mM",
+        "hazard": "H7"
+      },
+      {
+        "id": "s1.r1",
+        "text": "dNTP",
+        "hazard": "H3"
+      },
+      {
+        "id": "s1.t1",
+        "text": "tube 3",
+        "hazard": "H5"
+      },
+      {
+        "id": "s1.k1",
+        "text": "98 °C",
+        "hazard": "H7"
+      },
+      {
+        "id": "s1.d1",
+        "text": "30 seconds",
+        "hazard": "H7"
+      }
+    ]
+  },
+  {
+    "clip": "041.wav",
+    "protocol": "neb_q5_m0492",
+    "step": "s6",
+    "mode": "plain",
+    "snr_db": null,
+    "hazard_spans": [
+      {
+        "id": "s6.v1",
+        "text": "50 µl",
+        "hazard": "H1"
+      }
+    ]
+  },
+  {
+    "clip": "042.wav",
+    "protocol": "handwritten",
+    "step": "s1",
+    "mode": "plain",
+    "snr_db": 10,
+    "hazard_spans": [
+      {
+        "id": "s1.v1",
+        "text": "0.5 µL",
+        "hazard": "H1"
+      },
+      {
+        "id": "s1.c1",
+        "text": "10 mM",
+        "hazard": "H7"
+      },
+      {
+        "id": "s1.r1",
+        "text": "dNTP",
+        "hazard": "H3"
+      },
+      {
+        "id": "s1.t1",
+        "text": "tube 3",
+        "hazard": "H5"
+      },
+      {
+        "id": "s1.k1",
+        "text": "98 °C",
+        "hazard": "H7"
+      },
+      {
+        "id": "s1.d1",
+        "text": "30 seconds",
+        "hazard": "H7"
+      }
+    ]
+  },
+  {
+    "clip": "043.wav",
+    "protocol": "neb_q5_m0492",
+    "step": "s13",
+    "mode": "hazard",
+    "snr_db": 10,
+    "hazard_spans": [
+      {
+        "id": "s13.k1",
+        "text": "72 °C",
+        "hazard": "H7"
+      },
+      {
+        "id": "s13.d1",
+        "text": "2 minutes",
+        "hazard": "H7"
+      }
+    ]
+  },
+  {
+    "clip": "044.wav",
+    "protocol": "neb_q5_m0492",
+    "step": "s4",
+    "mode": "plain",
+    "snr_db": 10,
+    "hazard_spans": [
+      {
+        "id": "s4.v1",
+        "text": "2.5 µl",
+        "hazard": "H1"
+      },
+      {
+        "id": "s4.c1",
+        "text": "10 µM",
+        "hazard": "H7"
+      },
+      {
+        "id": "s4.c2",
+        "text": "0.5 µM",
+        "hazard": "H6"
+      }
+    ]
+  },
+  {
+    "clip": "045.wav",
+    "protocol": "neb_q5_m0492",
+    "step": "s4",
+    "mode": "plain",
+    "snr_db": 0,
+    "hazard_spans": [
+      {
+        "id": "s4.v1",
+        "text": "2.5 µl",
+        "hazard": "H1"
+      },
+      {
+        "id": "s4.c1",
+        "text": "10 µM",
+        "hazard": "H7"
+      },
+      {
+        "id": "s4.c2",
+        "text": "0.5 µM",
+        "hazard": "H6"
+      }
+    ]
+  },
+  {
+    "clip": "046.wav",
+    "protocol": "neb_q5_m0492",
+    "step": "s9",
+    "mode": "hazard",
+    "snr_db": 10,
+    "hazard_spans": [
+      {
+        "id": "s9.k1",
+        "text": "98 °C",
+        "hazard": "H7"
+      },
+      {
+        "id": "s9.d1",
+        "text": "30 seconds",
+        "hazard": "H7"
+      }
+    ]
+  },
+  {
+    "clip": "047.wav",
+    "protocol": "neb_q5_m0492",
+    "step": "s12",
+    "mode": "hazard",
+    "snr_db": 10,
+    "hazard_spans": [
+      {
+        "id": "s12.k1",
+        "text": "72 °C",
+        "hazard": "H7"
+      },
+      {
+        "id": "s12.d1",
+        "text": "30 seconds",
+        "hazard": "H7"
+      }
+    ]
+  },
+  {
+    "clip": "048.wav",
+    "protocol": "neb_q5_m0492",
+    "step": "s10",
+    "mode": "hazard",
+    "snr_db": null,
+    "hazard_spans": [
+      {
+        "id": "s10.n1",
+        "text": "30",
+        "hazard": "H2"
+      },
+      {
+        "id": "s10.k1",
+        "text": "98 °C",
+        "hazard": "H7"
+      },
+      {
+        "id": "s10.d1",
+        "text": "10 seconds",
+        "hazard": "H7"
+      }
+    ]
+  },
+  {
+    "clip": "049.wav",
+    "protocol": "neb_q5_m0492",
+    "step": "s3",
+    "mode": "plain",
+    "snr_db": 10,
+    "hazard_spans": [
+      {
+        "id": "s3.v1",
+        "text": "2.5 µl",
+        "hazard": "H1"
+      },
+      {
+        "id": "s3.c1",
+        "text": "10 µM",
+        "hazard": "H7"
+      },
+      {
+        "id": "s3.c2",
+        "text": "0.5 µM",
+        "hazard": "H6"
+      }
+    ]
+  },
+  {
+    "clip": "050.wav",
+    "protocol": "handwritten",
+    "step": "s1",
+    "mode": "plain",
+    "snr_db": 0,
+    "hazard_spans": [
+      {
+        "id": "s1.v1",
+        "text": "0.5 µL",
+        "hazard": "H1"
+      },
+      {
+        "id": "s1.c1",
+        "text": "10 mM",
+        "hazard": "H7"
+      },
+      {
+        "id": "s1.r1",
+        "text": "dNTP",
+        "hazard": "H3"
+      },
+      {
+        "id": "s1.t1",
+        "text": "tube 3",
+        "hazard": "H5"
+      },
+      {
+        "id": "s1.k1",
+        "text": "98 °C",
+        "hazard": "H7"
+      },
+      {
+        "id": "s1.d1",
+        "text": "30 seconds",
+        "hazard": "H7"
+      }
+    ]
+  },
+  {
+    "clip": "051.wav",
+    "protocol": "neb_q5_m0492",
+    "step": "s2",
+    "mode": "hazard",
+    "snr_db": 10,
+    "hazard_spans": [
+      {
+        "id": "s2.v1",
+        "text": "25 µl",
+        "hazard": "H1"
+      },
+      {
+        "id": "s2.r1",
+        "text": "Q5 High-Fidelity 2X Master Mix",
+        "hazard": "H4"
+      }
+    ]
+  },
+  {
+    "clip": "052.wav",
+    "protocol": "neb_q5_m0492",
+    "step": "s11",
+    "mode": "plain",
+    "snr_db": 10,
+    "hazard_spans": [
+      {
+        "id": "s11.k1",
+        "text": "65 °C",
+        "hazard": "H7"
+      },
+      {
+        "id": "s11.d1",
+        "text": "30 seconds",
+        "hazard": "H7"
+      }
+    ]
+  },
+  {
+    "clip": "053.wav",
+    "protocol": "neb_q5_m0492",
+    "step": "s13",
+    "mode": "hazard",
+    "snr_db": null,
+    "hazard_spans": [
+      {
+        "id": "s13.k1",
+        "text": "72 °C",
+        "hazard": "H7"
+      },
+      {
+        "id": "s13.d1",
+        "text": "2 minutes",
+        "hazard": "H7"
+      }
+    ]
+  },
+  {
+    "clip": "054.wav",
+    "protocol": "neb_q5_m0492",
+    "step": "s12",
+    "mode": "hazard",
+    "snr_db": 0,
+    "hazard_spans": [
+      {
+        "id": "s12.k1",
+        "text": "72 °C",
+        "hazard": "H7"
+      },
+      {
+        "id": "s12.d1",
+        "text": "30 seconds",
+        "hazard": "H7"
+      }
+    ]
+  },
+  {
+    "clip": "055.wav",
+    "protocol": "neb_q5_m0492",
+    "step": "s6",
+    "mode": "hazard",
+    "snr_db": null,
+    "hazard_spans": [
+      {
+        "id": "s6.v1",
+        "text": "50 µl",
+        "hazard": "H1"
+      }
+    ]
+  },
+  {
+    "clip": "056.wav",
+    "protocol": "neb_q5_m0492",
+    "step": "s14",
+    "mode": "hazard",
+    "snr_db": null,
+    "hazard_spans": [
+      {
+        "id": "s14.k1",
+        "text": "4 °C",
+        "hazard": "H7"
+      }
+    ]
+  },
+  {
+    "clip": "057.wav",
+    "protocol": "handwritten",
+    "step": "s1",
+    "mode": "hazard",
+    "snr_db": 10,
+    "hazard_spans": [
+      {
+        "id": "s1.v1",
+        "text": "0.5 µL",
+        "hazard": "H1"
+      },
+      {
+        "id": "s1.c1",
+        "text": "10 mM",
+        "hazard": "H7"
+      },
+      {
+        "id": "s1.r1",
+        "text": "dNTP",
+        "hazard": "H3"
+      },
+      {
+        "id": "s1.t1",
+        "text": "tube 3",
+        "hazard": "H5"
+      },
+      {
+        "id": "s1.k1",
+        "text": "98 °C",
+        "hazard": "H7"
+      },
+      {
+        "id": "s1.d1",
+        "text": "30 seconds",
+        "hazard": "H7"
+      }
+    ]
+  },
+  {
+    "clip": "058.wav",
+    "protocol": "neb_q5_m0492",
+    "step": "s6",
+    "mode": "plain",
+    "snr_db": 0,
+    "hazard_spans": [
+      {
+        "id": "s6.v1",
+        "text": "50 µl",
+        "hazard": "H1"
+      }
+    ]
+  },
+  {
+    "clip": "059.wav",
+    "protocol": "neb_q5_m0492",
+    "step": "s9",
+    "mode": "hazard",
+    "snr_db": null,
+    "hazard_spans": [
+      {
+        "id": "s9.k1",
+        "text": "98 °C",
+        "hazard": "H7"
+      },
+      {
+        "id": "s9.d1",
+        "text": "30 seconds",
+        "hazard": "H7"
+      }
+    ]
+  },
+  {
+    "clip": "060.wav",
+    "protocol": "neb_q5_m0492",
+    "step": "s2",
+    "mode": "plain",
+    "snr_db": null,
+    "hazard_spans": [
+      {
+        "id": "s2.v1",
+        "text": "25 µl",
+        "hazard": "H1"
+      },
+      {
+        "id": "s2.r1",
+        "text": "Q5 High-Fidelity 2X Master Mix",
+        "hazard": "H4"
+      }
+    ]
+  },
+  {
+    "clip": "061.wav",
+    "protocol": "neb_q5_m0492",
+    "step": "s3",
+    "mode": "hazard",
+    "snr_db": 0,
+    "hazard_spans": [
+      {
+        "id": "s3.v1",
+        "text": "2.5 µl",
+        "hazard": "H1"
+      },
+      {
+        "id": "s3.c1",
+        "text": "10 µM",
+        "hazard": "H7"
+      },
+      {
+        "id": "s3.c2",
+        "text": "0.5 µM",
+        "hazard": "H6"
+      }
+    ]
+  },
+  {
+    "clip": "062.wav",
+    "protocol": "neb_q5_m0492",
+    "step": "s10",
+    "mode": "plain",
+    "snr_db": 10,
+    "hazard_spans": [
+      {
+        "id": "s10.n1",
+        "text": "30",
+        "hazard": "H2"
+      },
+      {
+        "id": "s10.k1",
+        "text": "98 °C",
+        "hazard": "H7"
+      },
+      {
+        "id": "s10.d1",
+        "text": "10 seconds",
+        "hazard": "H7"
+      }
+    ]
+  },
+  {
+    "clip": "063.wav",
+    "protocol": "neb_q5_m0492",
+    "step": "s4",
+    "mode": "plain",
+    "snr_db": null,
+    "hazard_spans": [
+      {
+        "id": "s4.v1",
+        "text": "2.5 µl",
+        "hazard": "H1"
+      },
+      {
+        "id": "s4.c1",
+        "text": "10 µM",
+        "hazard": "H7"
+      },
+      {
+        "id": "s4.c2",
+        "text": "0.5 µM",
+        "hazard": "H6"
+      }
+    ]
+  },
+  {
+    "clip": "064.wav",
+    "protocol": "neb_q5_m0492",
+    "step": "s9",
+    "mode": "plain",
+    "snr_db": null,
+    "hazard_spans": [
+      {
+        "id": "s9.k1",
+        "text": "98 °C",
+        "hazard": "H7"
+      },
+      {
+        "id": "s9.d1",
+        "text": "30 seconds",
+        "hazard": "H7"
+      }
+    ]
+  },
+  {
+    "clip": "065.wav",
+    "protocol": "neb_q5_m0492",
+    "step": "s11",
+    "mode": "plain",
+    "snr_db": null,
+    "hazard_spans": [
+      {
+        "id": "s11.k1",
+        "text": "65 °C",
+        "hazard": "H7"
+      },
+      {
+        "id": "s11.d1",
+        "text": "30 seconds",
+        "hazard": "H7"
+      }
+    ]
+  },
+  {
+    "clip": "066.wav",
+    "protocol": "neb_q5_m0492",
+    "step": "s8",
+    "mode": "hazard",
+    "snr_db": 10,
+    "hazard_spans": [
+      {
+        "id": "s8.k1",
+        "text": "98 °C",
+        "hazard": "H7"
+      }
+    ]
+  },
+  {
+    "clip": "067.wav",
+    "protocol": "neb_q5_m0492",
+    "step": "s11",
+    "mode": "hazard",
+    "snr_db": 0,
+    "hazard_spans": [
+      {
+        "id": "s11.k1",
+        "text": "65 °C",
+        "hazard": "H7"
+      },
+      {
+        "id": "s11.d1",
+        "text": "30 seconds",
+        "hazard": "H7"
+      }
+    ]
+  },
+  {
+    "clip": "068.wav",
+    "protocol": "neb_q5_m0492",
+    "step": "s14",
+    "mode": "plain",
+    "snr_db": null,
+    "hazard_spans": [
+      {
+        "id": "s14.k1",
+        "text": "4 °C",
+        "hazard": "H7"
+      }
+    ]
+  },
+  {
+    "clip": "069.wav",
+    "protocol": "neb_q5_m0492",
+    "step": "s4",
+    "mode": "hazard",
+    "snr_db": null,
+    "hazard_spans": [
+      {
+        "id": "s4.v1",
+        "text": "2.5 µl",
+        "hazard": "H1"
+      },
+      {
+        "id": "s4.c1",
+        "text": "10 µM",
+        "hazard": "H7"
+      },
+      {
+        "id": "s4.c2",
+        "text": "0.5 µM",
+        "hazard": "H6"
+      }
+    ]
+  },
+  {
+    "clip": "070.wav",
+    "protocol": "handwritten",
+    "step": "s1",
+    "mode": "plain",
+    "snr_db": null,
+    "hazard_spans": [
+      {
+        "id": "s1.v1",
+        "text": "0.5 µL",
+        "hazard": "H1"
+      },
+      {
+        "id": "s1.c1",
+        "text": "10 mM",
+        "hazard": "H7"
+      },
+      {
+        "id": "s1.r1",
+        "text": "dNTP",
+        "hazard": "H3"
+      },
+      {
+        "id": "s1.t1",
+        "text": "tube 3",
+        "hazard": "H5"
+      },
+      {
+        "id": "s1.k1",
+        "text": "98 °C",
+        "hazard": "H7"
+      },
+      {
+        "id": "s1.d1",
+        "text": "30 seconds",
+        "hazard": "H7"
+      }
+    ]
+  },
+  {
+    "clip": "071.wav",
+    "protocol": "neb_q5_m0492",
+    "step": "s4",
+    "mode": "hazard",
+    "snr_db": 10,
+    "hazard_spans": [
+      {
+        "id": "s4.v1",
+        "text": "2.5 µl",
+        "hazard": "H1"
+      },
+      {
+        "id": "s4.c1",
+        "text": "10 µM",
+        "hazard": "H7"
+      },
+      {
+        "id": "s4.c2",
+        "text": "0.5 µM",
+        "hazard": "H6"
+      }
+    ]
+  },
+  {
+    "clip": "072.wav",
+    "protocol": "neb_q5_m0492",
+    "step": "s8",
+    "mode": "hazard",
+    "snr_db": 0,
+    "hazard_spans": [
+      {
+        "id": "s8.k1",
+        "text": "98 °C",
+        "hazard": "H7"
+      }
+    ]
+  },
+  {
+    "clip": "073.wav",
+    "protocol": "neb_q5_m0492",
+    "step": "s3",
+    "mode": "plain",
+    "snr_db": null,
+    "hazard_spans": [
+      {
+        "id": "s3.v1",
+        "text": "2.5 µl",
+        "hazard": "H1"
+      },
+      {
+        "id": "s3.c1",
+        "text": "10 µM",
+        "hazard": "H7"
+      },
+      {
+        "id": "s3.c2",
+        "text": "0.5 µM",
+        "hazard": "H6"
+      }
+    ]
+  },
+  {
+    "clip": "074.wav",
+    "protocol": "neb_q5_m0492",
+    "step": "s8",
+    "mode": "hazard",
+    "snr_db": null,
+    "hazard_spans": [
+      {
+        "id": "s8.k1",
+        "text": "98 °C",
+        "hazard": "H7"
+      }
+    ]
+  },
+  {
+    "clip": "075.wav",
+    "protocol": "neb_q5_m0492",
+    "step": "s13",
+    "mode": "hazard",
+    "snr_db": 0,
+    "hazard_spans": [
+      {
+        "id": "s13.k1",
+        "text": "72 °C",
+        "hazard": "H7"
+      },
+      {
+        "id": "s13.d1",
+        "text": "2 minutes",
+        "hazard": "H7"
+      }
+    ]
+  },
+  {
+    "clip": "076.wav",
+    "protocol": "neb_q5_m0492",
+    "step": "s4",
+    "mode": "hazard",
+    "snr_db": 0,
+    "hazard_spans": [
+      {
+        "id": "s4.v1",
+        "text": "2.5 µl",
+        "hazard": "H1"
+      },
+      {
+        "id": "s4.c1",
+        "text": "10 µM",
+        "hazard": "H7"
+      },
+      {
+        "id": "s4.c2",
+        "text": "0.5 µM",
+        "hazard": "H6"
+      }
+    ]
+  },
+  {
+    "clip": "077.wav",
+    "protocol": "neb_q5_m0492",
+    "step": "s8",
+    "mode": "plain",
+    "snr_db": 10,
+    "hazard_spans": [
+      {
+        "id": "s8.k1",
+        "text": "98 °C",
+        "hazard": "H7"
+      }
+    ]
+  },
+  {
+    "clip": "078.wav",
+    "protocol": "neb_q5_m0492",
+    "step": "s12",
+    "mode": "plain",
+    "snr_db": 10,
+    "hazard_spans": [
+      {
+        "id": "s12.k1",
+        "text": "72 °C",
+        "hazard": "H7"
+      },
+      {
+        "id": "s12.d1",
+        "text": "30 seconds",
+        "hazard": "H7"
+      }
+    ]
+  }
+]

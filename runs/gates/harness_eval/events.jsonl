@@ -1,0 +1,50 @@
+{"type": "header", "t_ms": 0.184, "wall": "2026-09-06T14:12:12.673+00:00", "protocol": "handwritten", "citation": "Hand-written, not a published protocol.\n\nAuthored for the vertical slice and the offline tests so the build has a corpus\nbefore the real one lands in Task 19. Its step is modelled on the shape of a\nhigh-fidelity PCR setup but is not taken from any source and must never appear\nin an evidence table.\n\nThe three cited protocols are in Task 19: the NEB Q5 High-Fidelity PCR protocol\n(M0491), the Addgene bacterial transformation protocol, and an adherent-cell\npassaging protocol.", "room": "harness", "scenario": "data/scenarios/eval.yaml", "speech_scale": 0.12, "render_mode": "hazard", "tts": "fixture"}
+{"type": "speech.start", "t_ms": 5.099, "wall": "2026-09-06T14:12:12.678+00:00", "context_id": "u1", "kind": "step", "step_id": "s1", "text": "Add, zero point five microlitres, of ten millimolar spell(dNTP) mix to, tube three. Incubate at ninety eight degrees celsius for thirty seconds."}
+{"type": "scenario.timer", "t_ms": 606.334, "wall": "2026-09-06T14:12:13.279+00:00", "timer_id": "s1.timer1"}
+{"type": "timer.fired", "t_ms": 606.544, "wall": "2026-09-06T14:12:13.279+00:00", "timer_id": "s1.timer1", "label": "thirty second incubation at ninety eight degrees"}
+{"type": "sink.playback_finished", "t_ms": 606.806, "wall": "2026-09-06T14:12:13.280+00:00", "playback_position": 0.599444, "interrupted": true}
+{"type": "speech.finished", "t_ms": 607.062, "wall": "2026-09-06T14:12:13.280+00:00", "context_id": "u1", "step_id": "s1", "kind": "step", "interrupted": true, "played": false, "playback_position": 0.599444}
+{"type": "cut", "t_ms": 607.106, "wall": "2026-09-06T14:12:13.280+00:00", "context_id": "u1", "step_id": "s1", "agent_playback_position": 0.599444, "probe_rendered_s": null, "probe_age_ms": Infinity, "delta_s": null, "stale_dropped": 0, "after_cut": false}
+{"type": "step.preempted", "t_ms": 607.187, "wall": "2026-09-06T14:12:13.280+00:00", "step_id": "s1", "timer_id": "s1.timer1"}
+{"type": "timer.announced", "t_ms": 607.211, "wall": "2026-09-06T14:12:13.280+00:00", "context_id": "u2", "timer_id": "s1.timer1"}
+{"type": "sink.playback_finished", "t_ms": 1210.107, "wall": "2026-09-06T14:12:13.883+00:00", "playback_position": 0.450975, "interrupted": false}
+{"type": "speech.finished", "t_ms": 1210.46, "wall": "2026-09-06T14:12:13.883+00:00", "context_id": "u2", "step_id": "s1", "kind": "announce", "interrupted": false, "played": false, "playback_position": 0.450975}
+{"type": "speech.start", "t_ms": 1210.761, "wall": "2026-09-06T14:12:13.884+00:00", "context_id": "u3", "kind": "step", "step_id": "s1", "text": "Add, zero point five microlitres, of ten millimolar spell(dNTP) mix to, tube three. Incubate at ninety eight degrees celsius for thirty seconds."}
+{"type": "input.pedal", "t_ms": 2206.046, "wall": "2026-09-06T14:12:14.879+00:00", "key": "advance", "at_ms": 0.0}
+{"type": "advance_blocked", "t_ms": 2206.55, "wall": "2026-09-06T14:12:14.879+00:00", "step_id": "s1", "reason": "not_played", "source": "pedal"}
+{"type": "sink.playback_finished", "t_ms": 2206.935, "wall": "2026-09-06T14:12:14.880+00:00", "playback_position": 0.994843, "interrupted": true}
+{"type": "speech.finished", "t_ms": 2207.284, "wall": "2026-09-06T14:12:14.880+00:00", "context_id": "u3", "step_id": "s1", "kind": "step", "interrupted": true, "played": false, "playback_position": 0.994843}
+{"type": "cut", "t_ms": 2207.356, "wall": "2026-09-06T14:12:14.880+00:00", "context_id": "u3", "step_id": "s1", "agent_playback_position": 0.994843, "probe_rendered_s": null, "probe_age_ms": Infinity, "delta_s": null, "stale_dropped": 0, "after_cut": false}
+{"type": "speech.start", "t_ms": 2207.437, "wall": "2026-09-06T14:12:14.880+00:00", "context_id": "u4", "kind": "step", "step_id": "s1", "text": "Add, zero point five microlitres, of ten millimolar spell(dNTP) mix to, tube three. Incubate at ninety eight degrees celsius for thirty seconds."}
+{"type": "playback.stale", "t_ms": 2207.615, "wall": "2026-09-06T14:12:14.880+00:00", "context_id": "u3"}
+{"type": "sink.playback_finished", "t_ms": 3411.929, "wall": "2026-09-06T14:12:16.085+00:00", "playback_position": 1.159728, "interrupted": false}
+{"type": "speech.finished", "t_ms": 3412.269, "wall": "2026-09-06T14:12:16.085+00:00", "context_id": "u4", "step_id": "s1", "kind": "step", "interrupted": false, "played": true, "playback_position": 1.159728}
+{"type": "readback.prompt", "t_ms": 3412.432, "wall": "2026-09-06T14:12:16.085+00:00", "context_id": "u5", "step_id": "s1", "span_id": "s1.v1", "field": "volume"}
+{"type": "readback.expected_spoken", "t_ms": 3412.624, "wall": "2026-09-06T14:12:16.085+00:00", "span_id": "s1.v1", "rendered": ", zero point five microlitres,"}
+{"type": "sink.playback_finished", "t_ms": 3614.565, "wall": "2026-09-06T14:12:16.287+00:00", "playback_position": 0.169116, "interrupted": false}
+{"type": "speech.finished", "t_ms": 3614.87, "wall": "2026-09-06T14:12:16.288+00:00", "context_id": "u5", "step_id": "s1", "kind": "prompt", "interrupted": false, "played": true, "playback_position": 0.169116}
+{"type": "scenario.readback", "t_ms": 4607.094, "wall": "2026-09-06T14:12:17.280+00:00", "transcript": "zero point five millilitres"}
+{"type": "readback.result", "t_ms": 4608.51, "wall": "2026-09-06T14:12:17.281+00:00", "step_id": "s1", "span_id": "s1.v1", "transcript": "zero point five millilitres", "accepted": false}
+{"type": "speech.start", "t_ms": 4608.574, "wall": "2026-09-06T14:12:17.281+00:00", "context_id": "u6", "kind": "repair", "step_id": "s1", "span_id": "s1.v1", "text": "zero point five microlitres"}
+{"type": "sink.playback_finished", "t_ms": 5011.122, "wall": "2026-09-06T14:12:17.684+00:00", "playback_position": 0.217415, "interrupted": false}
+{"type": "speech.finished", "t_ms": 5011.451, "wall": "2026-09-06T14:12:17.684+00:00", "context_id": "u6", "step_id": "s1", "kind": "repair", "interrupted": false, "played": true, "playback_position": 0.217415}
+{"type": "readback.prompt", "t_ms": 5011.606, "wall": "2026-09-06T14:12:17.684+00:00", "context_id": "u7", "step_id": "s1", "span_id": "s1.v1", "field": "volume"}
+{"type": "readback.expected_spoken", "t_ms": 5011.818, "wall": "2026-09-06T14:12:17.685+00:00", "span_id": "s1.v1", "rendered": ", zero point five microlitres,"}
+{"type": "sink.playback_finished", "t_ms": 5213.858, "wall": "2026-09-06T14:12:17.887+00:00", "playback_position": 0.169116, "interrupted": false}
+{"type": "speech.finished", "t_ms": 5214.183, "wall": "2026-09-06T14:12:17.887+00:00", "context_id": "u7", "step_id": "s1", "kind": "prompt", "interrupted": false, "played": true, "playback_position": 0.169116}
+{"type": "scenario.readback", "t_ms": 5405.549, "wall": "2026-09-06T14:12:18.078+00:00", "transcript": "zero point five microlitres"}
+{"type": "readback.result", "t_ms": 5405.794, "wall": "2026-09-06T14:12:18.079+00:00", "step_id": "s1", "span_id": "s1.v1", "transcript": "zero point five microlitres", "accepted": true}
+{"type": "readback.prompt", "t_ms": 5405.835, "wall": "2026-09-06T14:12:18.079+00:00", "context_id": "u8", "step_id": "s1", "span_id": "s1.t1", "field": "tube"}
+{"type": "readback.expected_spoken", "t_ms": 5406.043, "wall": "2026-09-06T14:12:18.079+00:00", "span_id": "s1.t1", "rendered": ", tube three,"}
+{"type": "sink.playback_finished", "t_ms": 5608.084, "wall": "2026-09-06T14:12:18.281+00:00", "playback_position": 0.153016, "interrupted": false}
+{"type": "speech.finished", "t_ms": 5608.414, "wall": "2026-09-06T14:12:18.281+00:00", "context_id": "u8", "step_id": "s1", "kind": "prompt", "interrupted": false, "played": true, "playback_position": 0.153016}
+{"type": "scenario.readback", "t_ms": 6206.003, "wall": "2026-09-06T14:12:18.879+00:00", "transcript": "tube three"}
+{"type": "readback.result", "t_ms": 6206.422, "wall": "2026-09-06T14:12:18.879+00:00", "step_id": "s1", "span_id": "s1.t1", "transcript": "tube three", "accepted": true}
+{"type": "input.pedal", "t_ms": 7005.983, "wall": "2026-09-06T14:12:19.679+00:00", "key": "advance", "at_ms": 0.0}
+{"type": "step.committed", "t_ms": 7006.274, "wall": "2026-09-06T14:12:19.679+00:00", "step_id": "s1", "source": "pedal"}
+{"type": "timers.started", "t_ms": 7006.385, "wall": "2026-09-06T14:12:19.679+00:00", "step_id": "s1", "timers": [{"id": "s1.timer1", "seconds": 30.0}]}
+{"type": "speech.start", "t_ms": 7006.439, "wall": "2026-09-06T14:12:19.679+00:00", "context_id": "u9", "kind": "step", "step_id": "s2", "text": "Mix by pipetting and spin down briefly."}
+{"type": "sink.playback_finished", "t_ms": 7410.617, "wall": "2026-09-06T14:12:20.083+00:00", "playback_position": 0.314059, "interrupted": false}
+{"type": "speech.finished", "t_ms": 7410.978, "wall": "2026-09-06T14:12:20.084+00:00", "context_id": "u9", "step_id": "s2", "kind": "step", "interrupted": false, "played": true, "playback_position": 0.314059}
+{"type": "scenario.finished", "t_ms": 7559.652, "wall": "2026-09-06T14:12:20.232+00:00", "pointer": 1, "state": "awaiting_advance"}
+{"type": "session.closed", "t_ms": 7560.514, "wall": "2026-09-06T14:12:20.233+00:00", "dropped_after_close": 0}

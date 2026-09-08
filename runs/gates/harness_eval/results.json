@@ -1,0 +1,56 @@
+{
+  "uninformed_advance_prevention": {
+    "value": 100.0,
+    "unit": "%",
+    "n": 1,
+    "note": "1 refusals and 0 commits of an unplayed step, across 2 advance attempts"
+  },
+  "reread_correctness": {
+    "value": 100.0,
+    "unit": "%",
+    "n": 2,
+    "note": "2 of 2 cut steps were read again from the top"
+  },
+  "stale_events_fenced": {
+    "value": 0,
+    "unit": "events",
+    "n": 2,
+    "note": "events Rime sent for a cut context, dropped before the speaker"
+  },
+  "preemption_latency_ms": {
+    "value": 0.7,
+    "unit": "ms (median)",
+    "n": 1,
+    "note": "timer expiry to the announcement taking the floor"
+  },
+  "cut_latency_ms": {
+    "value": null,
+    "unit": "ms (median)",
+    "n": 0,
+    "note": "no probe.cut rows; run without a browser"
+  },
+  "time_to_first_audible_word_ms": {
+    "value": null,
+    "unit": "ms (median)",
+    "n": 0,
+    "note": "no probe.onset rows; run without a browser"
+  },
+  "hazard_leaks_per_hundred": {
+    "value": null,
+    "unit": "per 100 model utterances",
+    "n": 0,
+    "note": "no model utterances in this run"
+  },
+  "readback_acceptance": {
+    "value": 66.7,
+    "unit": "%",
+    "n": 3,
+    "note": "2 accepted of 3 spoken readbacks"
+  },
+  "timer_accuracy_ms": {
+    "value": null,
+    "unit": "ms (worst)",
+    "n": 0,
+    "note": "no timer both started and fired in this run"
+  }
+}
