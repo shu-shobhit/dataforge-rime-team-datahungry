@@ -10,11 +10,10 @@
 set -uo pipefail
 
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
-# Not runs/gates/. That directory is committed evidence, and this used to write
-# straight into runs/gates/gate1/, so every dev run rewrote a file the
-# repository exists to preserve: one livekit-server left running appended two
-# thousand lines of ping traffic to a log cited in RIME_EVIDENCE.md. runs/logs/
-# is ignored, and nothing here can reach the evidence any more.
+# runs/logs/ is ignored. Process logs used to be written into a committed
+# directory, and one livekit-server left running appended two thousand lines of
+# ping traffic to a file the repository exists to preserve. Nothing here can
+# reach runs/evidence/ or runs/roundtrip/ any more.
 LOGS="$ROOT/runs/logs"
 PIDS="$ROOT/runs/pids"
 # The ML env's interpreter directly, not `conda run`. conda run holds the

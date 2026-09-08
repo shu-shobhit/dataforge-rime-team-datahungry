@@ -10,21 +10,14 @@ __pycache__/
 # Run artefacts are ignored, except the committed evidence.
 # A bare `runs/` would stop git descending at all, so the re-include could never fire.
 runs/*
-!runs/gates/
 !runs/evidence/
 !runs/roundtrip/
-runs/gates/**/*.wav
-# Clips are large and regenerable; the index and the answer key are the record.
+# Clips are large and regenerable. The event log is the record.
 runs/evidence/**/*.wav
 
-# The round trip is the evidence for claim 3.1, so its report is committed. The
+# The round trip is the evidence for claim 1, so its report is committed. The
 # brief asks for the clips too, and all 56 of them come to 11 MB, so what is
 # kept is the pairs the evidence document actually quotes. The rest regenerate
 # from the command in that document.
 runs/roundtrip/clips/*
 !runs/roundtrip/clips/quoted/
-
-# The raw process logs are noisy, machine-specific and rewritten on every
-# restart. The lines that are evidence are extracted into worker.log and NOTES.md.
-runs/gates/**/agent.log
-runs/gates/**/webserver.log

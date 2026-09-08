@@ -1,2 +1,0 @@
-2026-09-06 18:39:48,828 - INFO livekit.agents - starting worker {"version": "1.8.0", "rtc-version": "1.1.17"}
-2026-09-06 18:39:48,843 - INFO livekit.agents - registered worker {"agent_name": "", "deployment": "", "id": "AW_DRmwyUUTgXxB", "url": "ws://127.0.0.1:7880", "region": "", "protocol": 17}

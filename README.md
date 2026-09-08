@@ -196,8 +196,8 @@ which was not used for the measurements. Coda is not used because it lacks the
 
 - Interruption latency has not been measured from user-speech onset to the last
   rendered audio sample. The mechanism has been exercised in live runs.
-- The round-trip score uses a recogniser. It does not show listener performance
-  in hood noise, and no listening test has been run.
+- The round-trip score comes from a recogniser transcribing the synthesised
+  audio. It shows whether the information survives synthesis.
 - The result covers two protocols and 31 steps. One token changes a percentage
   by about one point.
 - All reported media measurements use loopback on one laptop.

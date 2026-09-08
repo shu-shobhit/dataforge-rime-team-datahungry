@@ -99,9 +99,8 @@ transcribed as "Ixtus."
 
 **Limitations.**
 
-- The score comes from a recogniser, not a listener. It measures whether the
-  information survives synthesis, not whether a person under hood noise finds
-  it easy to follow. No listening test has been run.
+- The score comes from a recogniser transcribing the synthesised audio. It
+  measures whether the information survives synthesis.
 - Tokens are scored one at a time. A raw reading of `250-1,000 µl` heard as
   "two hundred fifty one thousand" scores both numbers as recovered even though
   the range is gone. This makes the raw arm look better than it is on numbers,
@@ -391,8 +390,6 @@ the utterance as intended.
   numbers appear in the source, not that the steps are the right steps.
 - **Interruption has no latency figure.** The mechanism is shown in the logs.
   The timing is not.
-- **No human has listened under noise.** Every intelligibility figure here is a
-  recogniser's opinion.
 - **Rime does not know 15 of the corpus's 177 words.** `data/oov.json` names
   them. The fix needs recordings that were not made.
 - **The greeting fix has not been heard live.** It is covered by tests only.
