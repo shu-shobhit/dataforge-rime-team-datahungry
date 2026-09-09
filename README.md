@@ -35,11 +35,19 @@ are committed with the protocol.
 
 ## Run locally
 
-Use Python 3.12 in the `ML` conda environment. Install once:
+Create an environment and install into it once:
 
 ```bash
-conda run -n ML pip install -e ".[dev]"
+conda create -n wetlab python=3.12 -y
+conda activate wetlab
+pip install -e ".[dev]"
 ```
+
+A Python 3.12 virtual environment works the same way if you do not use conda:
+`python3.12 -m venv .venv`, then `source .venv/bin/activate`, then the same
+`pip install`.
+
+Every command below assumes that environment is active.
 
 Copy `.env.example` to `.env` and add a Rime key, an OpenRouter key, and
 LiveKit inference credentials. `.env` is ignored and must not be committed.
@@ -49,7 +57,7 @@ inference gateway, so the local development key pair is not sufficient.
 Download the plugin files and local turn detector once:
 
 ```bash
-conda run -n ML python -m livekit.agents download-files
+python -m livekit.agents download-files
 ```
 
 Use `livekit.agents` for this command. `python -m wetlab.agent download-files`
@@ -87,11 +95,11 @@ refuses an unprepared protocol. An earlier rule-based implementation converted
 is not allowed.
 
 ```bash
-conda run -n ML python scripts/ingest_protocol.py <id> --variant "the 50 microlitre reaction column"
+python scripts/ingest_protocol.py <id> --variant "the 50 microlitre reaction column"
 ```
 
 ```bash
-conda run -n ML python scripts/prepare_protocol.py <id>
+python scripts/prepare_protocol.py <id>
 ```
 
 Ingestion creates ordered steps from `source.md`. Preparation writes the spoken
@@ -101,10 +109,10 @@ change. Both outputs can be reviewed directly in the protocol directory.
 ## Measurements and tests
 
 ```bash
-conda run -n ML python scripts/roundtrip.py --protocols neb_q5_m0492 addgene_transformation --out runs/roundtrip
-WETLAB_SCRIPT=data/scenarios/questions.yaml conda run -n ML python -m wetlab.agent dev
-conda run -n ML python scripts/metrics.py runs/<stamp>/events.jsonl
-conda run -n ML pytest -q
+python scripts/roundtrip.py --protocols neb_q5_m0492 addgene_transformation --out runs/roundtrip
+WETLAB_SCRIPT=data/scenarios/questions.yaml python -m wetlab.agent dev
+python scripts/metrics.py runs/<stamp>/events.jsonl
+pytest -q
 ```
 
 There are 409 offline tests. Tests that require credentials are marked `live`

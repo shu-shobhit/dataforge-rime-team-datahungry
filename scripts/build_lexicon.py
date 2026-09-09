@@ -13,7 +13,7 @@ not know, which is the input to the recording step whenever it happens, and is a
 real result on its own. Until then H4 spans fall back to spelling their digits
 out, which is better than nothing and worse than a phoneme string.
 
-    conda run -n ML python scripts/build_lexicon.py
+    python scripts/build_lexicon.py
 """
 
 from __future__ import annotations

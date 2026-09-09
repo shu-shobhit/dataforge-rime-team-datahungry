@@ -19,8 +19,8 @@ not written.
 One request per step, so a bad output is isolated to one step and can be re-run
 alone with --only.
 
-    conda run -n ML python scripts/prepare_protocol.py neb_q5_m0492
-    conda run -n ML python scripts/prepare_protocol.py neb_q5_m0492 --only s3 s9
+    python scripts/prepare_protocol.py neb_q5_m0492
+    python scripts/prepare_protocol.py neb_q5_m0492 --only s3 s9
 """
 
 from __future__ import annotations

@@ -17,7 +17,7 @@ required name is now an error with the name in it.
 Anything that genuinely cannot be computed from a given run is still reported
 as null with a reason, because a missing row and a zero are different findings.
 
-    conda run -n ML python scripts/metrics.py runs/<stamp>/events.jsonl
+    python scripts/metrics.py runs/<stamp>/events.jsonl
 """
 
 from __future__ import annotations

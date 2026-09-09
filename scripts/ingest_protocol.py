@@ -19,7 +19,7 @@ choice is visible in the repository.
 There is no review gate. The result is written and loaded, and the CITATION
 file beside it says where the text came from.
 
-    conda run -n ML python scripts/ingest_protocol.py addgene_transformation
+    python scripts/ingest_protocol.py addgene_transformation
 """
 
 from __future__ import annotations

@@ -17,7 +17,7 @@ the list three ways:
 Only the first group is a hazard. The other two are the offline pass removing
 a problem as a side effect of doing something else.
 
-    conda run -n ML python scripts/oov_reach.py
+    python scripts/oov_reach.py
 """
 
 from __future__ import annotations

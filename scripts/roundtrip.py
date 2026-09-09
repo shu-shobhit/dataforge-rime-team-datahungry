@@ -15,7 +15,7 @@ The recogniser is not an ear. This measures whether the information survives
 synthesis, not whether a person under hood noise finds it easy. That belongs
 next to the result and is in the evidence document.
 
-    conda run -n ML python scripts/roundtrip.py --out runs/roundtrip
+    python scripts/roundtrip.py --out runs/roundtrip
 """
 
 from __future__ import annotations

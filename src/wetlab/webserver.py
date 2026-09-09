@@ -5,7 +5,7 @@ by cli.run_app (forkserver on Linux), so an HTTP server inside it is fragile.
 
 The API secret signs the token here and never reaches the browser.
 
-    conda run -n ML python -m wetlab.webserver
+    python -m wetlab.webserver
 """
 
 from __future__ import annotations

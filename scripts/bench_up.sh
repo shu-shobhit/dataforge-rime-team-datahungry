@@ -16,10 +16,11 @@ ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 # reach runs/evidence/ or runs/roundtrip/ any more.
 LOGS="$ROOT/runs/logs"
 PIDS="$ROOT/runs/pids"
-# The ML env's interpreter directly, not `conda run`. conda run holds the
-# caller's file descriptors open for the life of the child, so a server started
-# through it never lets the calling shell return.
-PY="${WETLAB_PYTHON:-$HOME/miniconda3/envs/ML/bin/python}"
+# The activated environment's interpreter directly, not `conda run`. conda run
+# holds the caller's file descriptors open for the life of the child, so a
+# server started through it never lets the calling shell return. Set
+# WETLAB_PYTHON to point somewhere else.
+PY="${WETLAB_PYTHON:-python}"
 
 mkdir -p "$LOGS" "$PIDS"
 
@@ -60,6 +61,17 @@ case "${1:-up}" in
     stop agent; stop webserver
     ;;
   *)
+    # Both processes are started detached with their output in a log file, so an
+    # interpreter that cannot import wetlab produces no error anywhere the
+    # caller can see: this script reports both as started, and `status` then
+    # reports both as not running. Checking first costs one interpreter startup
+    # and turns that into a sentence. Only on the start path; `status` and
+    # `down` read pid files and need no package.
+    if ! "$PY" -c 'import wetlab' 2>/dev/null; then
+      echo "$PY cannot import wetlab."
+      echo "Activate the environment first (conda activate wetlab), or set WETLAB_PYTHON."
+      exit 1
+    fi
     pgrep -f 'livekit-server --dev' > /dev/null || echo "warning: livekit-server --dev is not running"
     start webserver $PY -m wetlab.webserver
     start agent $PY -m wetlab.agent dev

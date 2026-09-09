@@ -114,7 +114,7 @@ transcribed as "Ixtus."
 **Command.**
 
 ```bash
-conda run -n ML python scripts/roundtrip.py --protocols neb_q5_m0492 addgene_transformation --out runs/roundtrip
+python scripts/roundtrip.py --protocols neb_q5_m0492 addgene_transformation --out runs/roundtrip
 ```
 
 ### 1a. Words Rime does not know
@@ -149,7 +149,7 @@ a person saying each word. Those recordings were not made.
 **Command.**
 
 ```bash
-conda run -n ML python scripts/build_lexicon.py && conda run -n ML python scripts/oov_reach.py
+python scripts/build_lexicon.py && python scripts/oov_reach.py
 ```
 
 Files: `data/oov.json`, `data/oov_reach.json`.
@@ -247,11 +247,11 @@ log lands under `runs/<stamp>/`. To reproduce the method without a microphone,
 the scripted driver feeds a fixed question list into a live session as text:
 
 ```bash
-WETLAB_SCRIPT=data/scenarios/questions.yaml conda run -n ML python -m wetlab.agent dev
+WETLAB_SCRIPT=data/scenarios/questions.yaml python -m wetlab.agent dev
 ```
 
 ```bash
-conda run -n ML python scripts/metrics.py runs/<stamp>/events.jsonl
+python scripts/metrics.py runs/<stamp>/events.jsonl
 ```
 
 ### 2a. Which model, and which host
