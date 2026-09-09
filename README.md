@@ -45,7 +45,8 @@ pip install -e ".[dev]"
 
 A Python 3.12 virtual environment works the same way if you do not use conda:
 `python3.12 -m venv .venv`, then `source .venv/bin/activate`, then the same
-`pip install`.
+`pip install`. On Debian and Ubuntu this needs `sudo apt install python3.12-venv`
+first, or `venv` fails saying ensurepip is not available.
 
 Every command below assumes that environment is active.
 
