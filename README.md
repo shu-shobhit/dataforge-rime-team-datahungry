@@ -9,6 +9,10 @@ Built for the DataForge x Rime hackathon. Rime produces all spoken output.
 
 The recorded demo is [`demo/Rime_Demo_Datahungry.mp4`](demo/Rime_Demo_Datahungry.mp4).
 
+The source repository is
+<https://github.com/shu-shobhit/dataforge-rime-team-datahungry>. This package is
+a copy of it, so the two hold the same code.
+
 ## Why the protocol is prepared first
 
 Protocols contain notation that is fine on a page and unreliable when passed
